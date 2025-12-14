@@ -22,7 +22,7 @@
 <img src="https://img.icons8.com/color/96/000000/api.png" width="80"/>
 
 **🔗 مخزن گیت‌هاب:**  
-[[https://github.com/Abolfazl-Zarei/ParsRubika-bot-go](https://github.com/AbolfazlZarei-dev/ParsRubika-bot-go)](https://github.com/AbolfazlZarei-dev/ParsRubika-bot-go)
+[(https://github.com/AbolfazlZarei-dev/ParsRubika-bot-go)](https://github.com/AbolfazlZarei-dev/ParsRubika-bot-go)
 
 **👤 توسعه‌دهنده:** ابوالفضل زارعی  
 **📧 ایمیل:** `ninjacode.ir@gmail.com`  
