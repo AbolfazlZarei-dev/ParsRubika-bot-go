@@ -469,9 +469,9 @@ bot.Middleware(func(ctx context.Context, update *ParsRubika.Update, next ParsRub
 - **👤 ایدی روبیکا:** `NinjaCode`
 - **📢 چنل روبیکا:** `Ninja_code`
 - **📧 ایمیل:** `ninjacode.ir@gmail.com`
-- **🐙 گیت‌هاب:** [Abolfazl-Zarei](https://github.com/Abolfazl-Zarei)
+- **🐙 گیت‌هاب:** [AbolfazlZarei-dev](https://github.com/AbolfazlZarei-dev)
 
-برای گزارش باگ یا درخواست ویژگی جدید، لطفاً یک [Issue](https://github.com/Abolfazl-Zarei/ParsRubika-bot-go/issues) در گیت‌هاب ایجاد کنید.
+برای گزارش باگ یا درخواست ویژگی جدید، لطفاً یک [Issue](https://github.com/AbolfazlZarei-dev/ParsRubika-bot-go/issues) در گیت‌هاب ایجاد کنید.
 
 ---
 
