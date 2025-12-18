@@ -1,9 +1,4 @@
 
-
-باشه حتماً. تمام بخش‌های مربوط به آدرس مخزن قدیمی (`github.com/Abolfazl-Zarei`) با آدرس جدید (`github.com/AbolfazlZarei-dev`) جایگزین شد.
-
-در اینجا نسخه اصلاح‌شده قرار دارد:
-
 # ParsRubika-bot-go
 
 # 🤖 ParsRubika | کتابخانه روبیکا برای Go (Golang) – ساخت ربات روبیکا با Go
