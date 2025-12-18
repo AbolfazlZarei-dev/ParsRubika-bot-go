@@ -1,3 +1,5 @@
+
+
 # ParsRubika-bot-go
 
 # 🤖 ParsRubika | کتابخانه روبیکا برای Go (Golang) – ساخت ربات روبیکا با Go
@@ -12,7 +14,7 @@
 ![Rubika Bot](https://img.shields.io/badge/Rubika-Bot%20API-red?style=for-the-badge&logo=telegram&logoColor=white)
 ![Go Version](https://img.shields.io/badge/Go-1.21%2B-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/Abolfazl-Zarei/ParsRubika-bot-go?style=for-the-badge&color=gold)
+![Stars](https://img.shields.io/github/stars/AbolfazlZarei-dev/ParsRubika-bot-go?style=for-the-badge&color=gold)
 
 <br />
 
@@ -81,7 +83,7 @@
 ### 📥 نصب کتابخانه
 
 ```bash
-go get github.com/Abolfazl-Zarei/ParsRubika-bot-go/v2
+go get github.com/AbolfazlZarei-dev/ParsRubika-bot-go/v2
 ```
 
 ---
@@ -100,7 +102,7 @@ import (
     "os"
     "time"
 
-    ParsRubika "github.com/Abolfazl-Zarei/ParsRubika-bot-go/v2"
+    ParsRubika "github.com/AbolfazlZarei-dev/ParsRubika-bot-go/v2"
 )
 
 func main() {
@@ -499,5 +501,3 @@ func main() {
     bot.Run(ctx)
 }
 ```
-
-
