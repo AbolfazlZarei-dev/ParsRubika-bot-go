@@ -79,7 +79,7 @@
 ### 📥 نصب کتابخانه
 
 ```bash
-go get github.com/AbolfazlZarei-dev/ParsRubika-bot-go/v2
+go get github.com/AbolfazlZarei-dev/ParsRubika-bot-go
 ```
 
 ---
