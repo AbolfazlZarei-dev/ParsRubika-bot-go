@@ -14,7 +14,7 @@
 
 <br />
 
-<img src="https://s6.uupload.ir/files/img_20251127_142046_212_c3oj.jpg" width="150"/>
+<img src="https://s8.uupload.ir/files/parsbale_c9n2.jpg" width=30"/>
 <img src="https://img.icons8.com/color/96/000000/golang.png" width="80"/>
 <img src="https://img.icons8.com/color/96/000000/robot-2.png" width="80"/>
 <img src="https://img.icons8.com/color/96/000000/api.png" width="80"/>
