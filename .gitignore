@@ -1,0 +1,15 @@
+# build output and local state
+/fullbot
+/selftest
+*.test
+*.out
+*.prof
+*.session
+.parsrubika_offset_*
+data/
+logs/
+
+# editor / OS
+.idea/
+.vscode/
+.DS_Store

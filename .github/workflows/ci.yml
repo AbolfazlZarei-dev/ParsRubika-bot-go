@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  test:
+    name: Build & Test
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        go-version: ['1.20.x', '1.23.x']
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: ${{ matrix.go-version }}
+          cache-dependency-path: go.sum
+
+      - name: Download dependencies
+        run: go mod download
+
+      - name: Build
+        run: go build ./...
+
+      - name: Vet
+        run: go vet ./...
+
+      - name: Test (with race detector)
+        run: go test -race -count=1 ./...
+
+      - name: Test coverage
+        run: |
+          go test -count=1 -coverprofile=coverage.out ./... || true
+          go tool cover -func=coverage.out | tail -1
+
+  nested-modules:
+    name: Nested Modules (http3, sqlitedriver)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.23.x'
+          cache-dependency-path: |
+            go.sum
+            http3/go.sum
+            storage/sqlitedriver/go.sum
+
+      - name: Build http3 module
+        working-directory: http3
+        run: |
+          go mod download
+          go build ./...
+          go vet ./...
+
+      - name: Build sqlitedriver module
+        working-directory: storage/sqlitedriver
+        run: |
+          go mod download
+          go build ./...
+          go vet ./...
